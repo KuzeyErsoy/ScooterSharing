@@ -11,7 +11,7 @@ import {
     TouchableOpacity,
 } from 'react-native';
 
-const BACKEND_URL = 'http://192.168.1.2:3000';
+const BACKEND_URL = 'http://YOUR IP ADRESS';
 
 const LoginScreen = ({ navigation }) => {
     const [username, setUsername] = useState('');
