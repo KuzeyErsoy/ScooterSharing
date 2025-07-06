@@ -12,7 +12,7 @@ import MapView, { Marker } from 'react-native-maps';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import LogoutButton from "./components/LogoutButton";
 
-const BACKEND_URL = 'http://192.168.1.2:3000';
+const BACKEND_URL = 'http://YOUR IP ADRESS';
 
 const OperatorMapScreen = () => {
     const [scooters, setScooters] = useState([]);
