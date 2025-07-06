@@ -4,7 +4,7 @@ import { Marker } from 'react-native-maps';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import MapScreen from './MapScreen';
 import LogoutButton from "./components/LogoutButton";
-const BACKEND_URL = 'http://192.168.1.2:3000'; // IP'yi kendi sistemine göre ayarla
+const BACKEND_URL = 'http://YOUR IP ADRESS';
 
 const UserMapScreen = () => {
     const [scooters, setScooters] = useState([]);
